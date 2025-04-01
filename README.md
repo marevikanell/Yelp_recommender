@@ -22,11 +22,11 @@ This repository contains a collection of Jupyter Notebooks that implement variou
   - **Purpose:** Implements non-personalized recommendation methods (e.g., random, popular, demographic filtering).
   - **Usage:** Use the pre-processed data from Yelp_01. This notebook provides previews with output included.
 
-- **Yelp_03_collaborative filtering.ipynb**  
+- **Yelp_03_collaborative_filtering.ipynb**  
   - **Purpose:** Implements collaborative filtering approaches (memory-based, model-based, SVD, etc.).
   - **Usage:** Ensure you run the data load and cleaning notebook (Yelp_01) before running this file.
 
-- **Yelp_04_content based.ipynb**  
+- **Yelp_04_content_based.ipynb**  
   - **Purpose:** Implements content-based recommendation techniques.
   - **Usage:** Reuse the data prepared in Yelp_01 for this analysis.
 
@@ -34,7 +34,7 @@ This repository contains a collection of Jupyter Notebooks that implement variou
   - **Purpose:** Implements content-based recommendation technique: BERT.
   - **Usage:** Reuse the data prepared in Yelp_01 for this analysis.
  
-- **Yelp_05_context based.ipynb**  
+- **Yelp_05_hybrid_context_based.ipynb**  
   - **Purpose:** Implements context-aware recommenders that consider additional contextual signals.
   - **Usage:** Again, the cleaned and sampled data from Yelp_01 is required.
 
