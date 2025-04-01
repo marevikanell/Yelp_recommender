@@ -6,14 +6,18 @@ This repository contains a collection of Jupyter Notebooks that implement variou
 
 ## Repository Structure
 
-- **Yelp_01_dataload&cleaning.ipynb**  
+- **Yelp_00_dataload&cleaning.ipynb**  
   - **Purpose:** Loads, cleans, and samples the Yelp dataset.
   - **Contents:**  
     - Data ingestion from `review.json`, `business.json`, `user.json`, `checkin.json`, and `tip.json`.
     - Data cleaning and preprocessing.
     - Sampling techniques to create manageable subsets.
   - **Usage:** Run this notebook first to prepare the data for subsequent recommendation models.
-
+ 
+- **Yelp_01_EDA.ipynb**
+    - **Purpose:** Exploratory analysis of the Yelp Dataset. 
+    - **Usage:** Use the pre-processed data from Yelp_01. Run this notebook to explore the dataset.
+      
 - **Yelp_02_non_personalized.ipynb**  
   - **Purpose:** Implements non-personalized recommendation methods (e.g., random, popular, demographic filtering).
   - **Usage:** Use the pre-processed data from Yelp_01. This notebook provides previews with output included.
