@@ -30,6 +30,10 @@ This repository contains a collection of Jupyter Notebooks that implement variou
   - **Purpose:** Implements content-based recommendation techniques.
   - **Usage:** Reuse the data prepared in Yelp_01 for this analysis.
 
+- **Yelp_04.1_BERT.ipynb**  
+  - **Purpose:** Implements content-based recommendation technique: BERT.
+  - **Usage:** Reuse the data prepared in Yelp_01 for this analysis.
+ 
 - **Yelp_05_context based.ipynb**  
   - **Purpose:** Implements context-aware recommenders that consider additional contextual signals.
   - **Usage:** Again, the cleaned and sampled data from Yelp_01 is required.
